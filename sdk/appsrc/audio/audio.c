@@ -183,7 +183,7 @@ XStatus fnAudioPllConfig() {
 
 		XIic_Recv(XPAR_IIC_0_BASEADDR, IIC_SLAVE_ADDR, u8RxData, 6, XIIC_STOP);
 		if(Demo.u8Verbose) {
-			xil_printf("\nAudio PLL R1 = 0x%x%x%x%x%x%x", u8RxData[0], u8RxData[1],
+			xil_printf("\r\nAudio PLL R1 = 0x%x%x%x%x%x%x", u8RxData[0], u8RxData[1],
 				u8RxData[2], u8RxData[3], u8RxData[4], u8RxData[5]);
 		}
 	}

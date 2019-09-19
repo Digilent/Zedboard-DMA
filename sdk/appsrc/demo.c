@@ -217,7 +217,13 @@ int main(void)
 
 
 
-    xil_printf("DONE\r\n");
+    xil_printf("\r\nInitialization done");
+    xil_printf("\r\n");
+    xil_printf("\r\nControls:");
+    xil_printf("\r\n    BTNL: Play recording on LINE OUT");
+    xil_printf("\r\n    BTNU: Record from MIC IN");
+    xil_printf("\r\n    BTND: Play recording on HPH OUT");
+    xil_printf("\r\n    BTNR: Record from LINE IN");
 
     //main loop
 
